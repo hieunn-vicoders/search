@@ -12,5 +12,7 @@ class Search extends Facade
      * @return string
      */
     protected static function getFacadeAccessor()
-    {return 'search';}
+    {
+        return 'search';
+    }
 }
